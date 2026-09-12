@@ -1,6 +1,6 @@
 # Dunder _ _builtins__,  __init__
 
-message = "HELLO WORLD!"
+message = "PYTHON: everything is object!"
 print(message)
 
 
