@@ -43,3 +43,19 @@ def give_greet(name, age):
 # CALL
 result3 = give_greet("JOHN", 23)
 print("result3:", result3)
+
+
+print("===== Scope =====")
+
+b = 100  # 3
+
+# DEFINE
+
+
+def calculate(a, b):  # 2
+    c = a * b  # 1
+    print(f"the c value: {c}")
+
+
+# CALL
+calculate(5, 20)
