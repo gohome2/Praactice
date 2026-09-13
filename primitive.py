@@ -27,6 +27,13 @@ print(f"the result (3): {result}")
 result = course.replace("FullStack", "MasterClass")
 print(f"the result (4): {result}")
 
+
+def getReverse(text):
+    return text[::-1]
+
+
+print(getReverse("hello"))
+
 print("======= boolean ========")
 # functions > type() input() bool() int() str()
 y = input("Give your value for y:")
